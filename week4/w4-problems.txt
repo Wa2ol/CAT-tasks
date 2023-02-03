@@ -1,0 +1,19 @@
+WEEK4
+------------
+
+P1 : SELECT * FROM City;
+
+P2 : SELECT * FROM City
+     WHERE ID=1661;
+
+P3 : SELECT * FROM City 
+     WHERE POPULATION>100000
+     AND COUNTRYCODE='USA';
+
+P4 : SELECT NAME FROM City
+     WHERE COUNTRYCODE='JPN';
+
+P5 : SELECT Name FROM STUDENTS 
+     WHERE Marks > 75
+     ORDER BY RIGHT(name,3), id;
+
